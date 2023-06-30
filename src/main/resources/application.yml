@@ -15,4 +15,4 @@ spring:
         format_sql: false
   sql:
     init:
-      mode: none
+      mode: never
