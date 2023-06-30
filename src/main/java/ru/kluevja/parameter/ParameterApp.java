@@ -1,13 +1,13 @@
-package ru.kluevja.econ;
+package ru.kluevja.parameter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EconApplication {
+public class ParameterApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EconApplication.class, args);
+		SpringApplication.run(ParameterApp.class, args);
 	}
 
 }
