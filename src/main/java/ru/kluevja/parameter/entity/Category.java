@@ -21,4 +21,6 @@ public class Category {
     private OperationType operationType;
     @ManyToOne
     private Category parentCategory;
+    @ManyToOne
+    private User creator;
 }
